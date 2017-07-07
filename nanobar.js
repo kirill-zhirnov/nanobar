@@ -49,6 +49,8 @@
 
     function go (num) {
       if (num >= 0) {
+        addClass(el, 'active');
+
         here = num
         if (!on) {
           on = 1
